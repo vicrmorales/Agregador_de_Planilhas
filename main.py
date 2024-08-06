@@ -7,7 +7,7 @@ import pathlib
 
 local_path = pathlib.Path(__file__).parent.resolve()
 print(local_path)
-
+#Teste
 dir_planilhas_base = str(local_path) + "/Planilhas Base"
 planilhas_base = [f for f in listdir(dir_planilhas_base) if isfile(join(dir_planilhas_base, f))]
 dir_arquivo_final = str(local_path) + '/Planilha_Agregada.xlsx'
